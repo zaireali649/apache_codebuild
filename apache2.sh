@@ -16,6 +16,7 @@ echo '<meta charset="UTF-8">' >> index.html
 echo '</head>' >> index.html
 echo '<body>' >> index.html
 echo '<h1>Apache Web Server launched on CI/CD Pipeline</h1>' >> index.html
+echo '<h2>Remember to update the IAM Role</h2>' >> index.html
 echo '<p>Github -> CodeBuild -> EC2</p>' >> index.html
 echo '</body>' >> index.html
 echo '</html>' >> index.html
